@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    color: #FFFFFF;;
+    color: #FFFFFF;
+    text-align: center; /* Centraliza o texto */
 }
 
 p {
