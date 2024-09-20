@@ -41,3 +41,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Define um tamanho máximo específico para a imagem do microcontrolador */
+.microcontrolador {
+    max-width: 10%; /* Ajustado para 10% */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
