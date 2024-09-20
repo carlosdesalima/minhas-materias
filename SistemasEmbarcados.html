@@ -23,6 +23,7 @@
     <script>
         function abrirPDF(pdf) {
             document.getElementById('pdfViewer').src = pdf;
+            document.getElementById('pdfViewer').scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 </head>
