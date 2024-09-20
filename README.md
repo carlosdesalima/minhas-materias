@@ -1,487 +1,412 @@
-Transcript
-
-
+Introdução
+E aí
 [Música]
-hoje vamos iniciar a nossa disciplina
-eletrônica embarcada e nessa primeira
-videoaula vamos falar um pouco sobre o
-que significam os sistemas embarcados e
-também vamos dar um exemplo de uma
-aplicação muito relevante nos dias de
-hoje que é a eletrônica embarcada em
-veículos
-inicialmente a palavra embarcada gera
-muitas dúvidas né que significa
-embarcada essa palavra embarcado vem da
-tradução do inglês da palavra embebe que
-também alguns traduzem por embutido bom
-eletrônica embarcada o que significa é
-um eletrônico está presente apenas em
-veículos aqui há coisas que se
-movimentam ou é algo mais abrangente
-então vamos voltar a conceitos que você
-já deve ter visto em outras disciplinas
-relacionados com a evolução dos
-computadores
-inicialmente os computadores eram de
-grande porte não usados apenas por
-grandes empresas grandes instituições e
-depois o tamanho esse pagamento foi
-diminuindo computadores de médio porte
-chegaram os microcomputadores e
-computadores ligados em rede e tudo isso
-viabilizou a micro computação culminando
-com os computadores portáteis
-hoje nós temos os smartphones os tablets
-é que na verdade são exemplos de
-convergência de tecnologias que envolvem
-tecnologia de comunicação e também a
-parte de computação e o que inviabilizou
-tudo isso foi a micro eletrônica ela
-evoluiu muito nos últimos anos nas
-últimas décadas com viabilizando
-equipamentos de pequeno porte baixo
-consumo de energia e baixo custo
-bom com isso existe agora um novo
-paradigma de computação um nome um pouco
-estranho mas é a tal da computação o
-bico
-o que significa computação bico o que
-significa um novo paradigma é uma nova
-forma de encarar a computação eu que
-forma seria essa seria o computador em
-toda parte
-de forma que o usuário não perceba a sua
-presença ou seja de forma imperceptível
-o como alguns chamam de forma invisível
-os usuários não percebem a sua presença
-mas ele está presente nos ambientes ou
-seja embarcado nos ambiente ou embutido
-como queiram
-e agindo e reagindo de forma inteligente
-a tudo que acontece ao seu redor e quem
-propôs esse conceito foi marcus buaiz em
-1991
-então foi um é uma nova forma de nós
-encaramos a computação
-então nesse contexto computador e
-eletrônica embarcada podem ser
-confundidos né então por que a
-eletrônica embarcada atualmente ela é
-construída sempre com processadores com
-microprocessadores dispositivos que tem
-a capacidade de realizar uma tarefa
-similar à de um computador
-então nós temos a eletrônica embarcada e
-como o ambiente
-nós podemos considerar não apenas os
-veículos aquilo que se movimenta mais
-máquinas de qualquer natureza industrial
-equipamentos médicos né
-nós também podemos considerar os nossos
-dispositivos portáteis os nossos
-eletrodomésticos e até mesmo coisas que
-nós usamos é a tal da computação
-vestível que pode envolver seres humanos
-nécessaires vivido de uma forma geral
-bom qual foi o primeiro sistema
-embarcado de grande sucesso na história
-foi o apollo gaiense computer que foi
-desenvolvido antes mesmo dos
-microprocessadores
-como todos já devem lembrar das
-histórias da computação ou
-miro microprocessador foi desenvolvido
-em 1971 e o homem foi à lua em 1969
-esse projeto é da década de 60 mas foi
-responsável por levar e trazer
-insegurança o homem à lua talvez o maior
-feito da humanidade que infelizmente
-você não deve ter que dá oportunidade de
-presenciar
-mas como é que era esse computador do
-módulo que levou o homem à lua é um
-equipamento que se nós compararmos com
-as características de um smartphone
-moderno é muito simples muito limitado
-mais tinha todos os recursos que eram
-necessários para cumprir aquela função
-porém como a capacidade de processamento
-desse equipamento era limitada é não
-tinha muita memória e um processador era
-lento né
-o que perdia muito em relação os
-equipamentos atuais era a interface com
-o usuário é muito pobre displays apenas
-numéricos teclado numérico e com poucas
-técnicas adicionais existia num canto
-numa parte da do módulo lunar uma tabela
-logicamente eles não estão conseguindo
-ver mas aqui tem números e códigos né
-cada vez que um comando tinha que ser
-dado pelo astronauta ao módulo lunar em
-que consultou a qual era o número
-digitar e esse comando era da imagine se
-ele tocasse né
-o comando de descer para subir o que
-poderia acontecer e também como quando
-alguma mensagem de erro aparece e quem
-consultar para verificar qualquer a
-mensagem de erro
-mas tudo isso mesmo na forma primitiva
-que aparecia conseguiu essa grande
-façanha da humanidade
-bom agora o que é uma eletrônica
-embarcada bom o primeiro ponto que nós
-temos que considerar que qualquer
-equipamento embarcado ele é destinado a
-uma única aplicação e não é pagamento de
-propósito geral como um computador que
-eu posso trocar
-o programa colocar novas interfaces e
-cada vez e é usado por uma finalidade
-então é destinado a uma aplicação
-normalmente é baseado o único
-processador ou no micro controlador que
-é um microprocessador que já possui
-internamente memória entradas e saídas
-numa capacidade reduzida o suficiente
-para atender às necessidades de
-equipamento embarcado ou então em
-módulos específicos podem ser
-construídos para tomar se tornar o
-sistema mais robusto mais compacto e
-menos custoso mas em geral esses
-dispositivos têm pouca poucas entradas e
-saídas não é só o suficiente para
-cumprir sua finalidade
-as interfaces são simples e possui algum
-tipo de comunicação essa comunicação
-pode ser por exemplo usb uma comunicação
-sem confiou sem fio vai depender da sua
-finalidade é bom o mercado estimado para
-eletrônica embarcada é fabuloso para os
-próximos anos
-sistemas que serão necessários 50
-bilhões a 50 bilhões de dispositivos
-embarcados então você que será o
-engenheiro da computação
-logo mais terá a oportunidade de
-contribuir na concepção de alguns desses
-50 bilhões de dispositivos e ainda mais
-com o advento da internet das coisas que
-todos nós agora vez ou outra
-tomamos contato com esse termo né coisa
-virou uma palavra técnica é internet das
-coisas demanda o desenvolvimento de
-muitos dispositivos em que serão
-embarcados nos equipamentos nos produtos
-nos ambientes bom
-a eletrônica embarcada ela é tem que
-atender alguns requisitos algumas
-restrições no momento no projeto por
-exemplo o tamanho e peso
-então dependendo de onde for colocado o
-equipamento ele não pode pesar muito
-não pode ser muito grande então tem que
-ter dimensões
-reduzidas de ser leve consumo de energia
-muitos desses equipamentos têm que
-operar com bateria por um prazo razoável
-então o consumo é crítico custo muitas
-vezes em viabilizar projetos é tem que
-ficar dentro do do orçamento para que o
-projeto seja e viável e comunica a
-economicamente e também tem que ser um
-projeto confiável é tem que a funcionar
-em segurança maior parte do tempo
-ou seja diferentemente de um computador
-que quando apresenta algum problema nós
-podemos apertar o famoso botão de reset
-começar novamente as atividades
-o equipamento feito para operar de forma
-autônoma não tem essa condição imagine
-um veículo operando no planeta marketing
-mark é que tem que ser operado à
-distância
-se alguma coisa falhar ele mesmo tem que
-se auto recuperar netão recuperação
-automática após erros e falhas então
-essa é uma característica também da
-eletrônica embarcada sem falar da
-robustez ao ambiente temperatura umidade
-todo tipo de problema que pode oferecer
-nós nós deixamos cair com freqüência
-nossos aparelhos os smartphones no chão
-e na maioria das vezes eles resistem bem
-então eletrônica embarcada tem que ser
-robusta também e finalmente será
-aplicada em tempo real ou seja a
-eletrônica tem que atender aos estímulos
-que ocorrem ao seu redor e dentro de
-tempos de resposta à adequados não podem
-ser muito lento se não pode deixar de
-atender alguma necessidade perder alguma
-informação bom arquitetura típica de um
-sistema embarcado não é complexa é muito
-convencional
-queremos o processador 1 ou um
-microcontrolador o homem eletrônica
-delicada e quem comandará tudo isso é um
-programa que agora ele fica residente é
-um programa
-isso que em geral não é trocado e muitas
-vezes chamado de firmware esse sistema
-possui 11 uma interface com entradas e
-saídas em pequena quantidade é que podem
-ser sensores podem ser atuador sneh e
-quando necessário uma interface com o
-usuário e também a parte de comunicação
-com outros dispositivos uma comunicação
-de configuração do equipamento enfim
-algo que seja necessário a sua operação
-bom vamos usar agora um exemplo que é
-muito rico e muito presente na nossa
-vida para exatamente desenvolver os
-assuntos envolvem que envolvem
-eletrônica embarcada nós vamos usar
-muito esse exemplo nas nossas vídeo
-aulas ao longo da nossa disciplina que é
-o caso de veículos
-qualquer veículo hoje em dia seja
-popular ou não ele possui eletrônica
-embarcada já faz parte do seu projeto e
-não é exagero dizer que ele possui
-dezenas de processadores possui
-realmente uma quantidade dessa ordem de
-processadores espalhados em todo o
-veículo né
-então essa é eletrônica está presente em
-todos os veículos modernos
-então muitos dispositivos alguns nós até
-sabemos que existem outros não estão lá
-presentes como o computador de bordo
-freios abs air bags que mais controle de
-tração ar condicionado à parte de
-entretenimento então praticamente tudo
-num veículo é controlado por um pequeno
-processador por um módulo eletrônico
-especializado vidro elétrico né tem
-direção elétrica enfim praticamente tudo
-no veículo está agora cada vez mais
-sendo controlado por módulos eletrônicos
-aqui é um exemplo no que poderíamos ter
-no veículo é é o seu painel a direção e
-várias marcações
-é do que teríamos de eletrônica
-embarcada isso é apenas um pequeno
-exemplo é que nós podemos fazer com essa
-eletrônica configurar o veículo para
-cada utilização tem veículos que
-permitem o ajuste de bancos de direção
-em para cada usuário que utilize a
-regulagem do veículo por exemplo o
-brasil nós temos os veículos para mais
-de um tipo de combustível então eles
-conseguem é determinar qual é o
-combustível presente a cada momento e
-modificar a regulagem para operar bem
-com esse combustível diagnóstico né com
-freqüência nós recebemos mensagens na
-tela
-desde avisos para levar o veículo a
-manutenção mas também aviso dizendo que
-uma lâmpada está queimada algum problema
-está ocorrendo né tendências ou seja
-quantos quilômetros eu poderia rodar com
-o combustível disponível no ar no tanque
-predições nem algum mau funcionamento
-que esteja freqüente que pode levar algo
-mais sério ele pode prevê algum problema
-tem todo o histórico de utilização de
-veículo de falhas que ocorreram para
-quando o veículo for na manutenção
-facilitar o trabalho do mecânico e
-finalmente a partir de exibição de
-informações das mais diversas fotos
-então um veículo atualmente é muito rico
-em oportunidades para nós entendermos
-como funciona a eletrônica embarcada e é
-interessante ver a evolução da presença
-de eletrônica embarcada a partir do
-aumento do número de fusíveis no veículo
-nós temos aqui neste gráfico a presença
-de de fusíveis desde o ano de 1927 em
-apenas quatro fusíveis até chegando
-próximo dos dias de hoje nos anos 2000
-então anote em que a partir dos anos 80
-nós tivemos um aumento muito grande de
-dispositivos eletroeletrônicos presente
-nos veículos e apenas para entender
-vamos como que tudo isso funciona vamos
-é é colocar aqui na horizontal onde
-alguns dos módulos que um veículo típico
-possui e aqui na vertical informações
-advindas de sensores e outros elementos
-presentes no veículo
-então por exemplo uma informação
-relacionada a velocidade do veículo ela
-é importante para os a central de travas
-ela é importante para o painel de
-instrumentos
-ela é importante para o sistema de
-freios imagine se eu fosse construir um
-automação automotiva de forma
-convencional o que acontecer eu queria
-que levar fios 10 com a informação de
-velocidade para todos esses alimentos e
-fazendo agora uma analogia com os demais
-imagine a quantidade elicarlos a
-quantidade de fios presentes em um
-veículo
-certamente teria um impacto muito grande
-no com os custos no tamanho a
-confiabilidade né
-então esse tipo de de arquitetura teve
-que ser revista na arquitetura
-centralizada esse é o nome que caminhos
-que se dá na indústria automotiva por
-unidade de controle eletrônico vem do
-inglês mas imagine que ela fosse um
-elemento central com ele entradas n
-saídas né a convergência de fios para
-este módulo seria muito grande então
-saída distribuir o processamento de
-todos os elementos em vários módulos
-pequenos menores mais simples
-especializados né
-porém a todos interligados aqui por uma
-rede especial uma rede veicular similar
-às redes que existem em computadores né
-então isso traz uma série de vantagens
-por exemplo redução no cabeamento
-isso é muito importante muito
-significativo no veículo né
-simplifica a instalação colocar um
-módulo novo o opcional por exemplo que o
-comprador deseja basta pulgar mais um
-elemento nessa rede instalar o
-dispositivo né então a simples
-muito instalação é muito flexível
-portanto né
-e é muito fácil diagnosticar qual o
-módulo está com um problema eles mesmos
-fazem auto diagnóstico trocam mensagens
-nós podemos na manutenção lugar no
-veículo um módulo especial que conversa
-com todos os elementos presentes no
-veículo descobrindo se algo está com
-algum problema e as principais redes na
-área automotiva só para citar duas temos
-a rede campeã ea rede limpo essa rede
-cano e aula uma aula futura nós vamos
-estudar melhor
-bom isso trouxe um grande potencial para
-uma nova instrumentação é o que seria
-isso
-a instrumentação convencional né é
-baseada em sinais que vem e sensores que
-se comporta de uma maneira análoga à
-variação da grandeza ou seja temperatura
-aumenta o sinal elétrico do censo
-aumenta também na mesma proporção
-então é a tal da eletrônica analógica
-então a grandeza medida na
-instrumentação convencional usuário que
-interpreta o que significa aquele valor
-essa medição é muito sujeita a
-interferências e ruídos elétricos então
-se um vidro elétrico soma 11 pela
-pequena atenção ao sinal analógico
-pronto já adulterou esse valor né
-se eu tenho um cabelo muito comprido
-posso ter uma atenuação ter perda de
-informação nesse cabo e então isso traz
-muitos problemas sem dúvida nenhuma
-então em instrumentação inteligente que
-surge agora né
-inicialmente ela parte do ponto onde o
-sinal analógico l é digitalizado
-ou seja deve ter visto isso em outras
-disciplinas de sistemas digitais então
-passando informação para a forma digital
-alguns problemas desaparecem ruídos e
-outras coisas mais
-eu posso também por software né é ter um
-programa que compensa um sensor que não
-é linear
-então eu faço todo esses ajustes
-com alguma facilidade por software né
-eu posso transmitir a informação para
-outros modos que fazem uso dela e também
-um módulo pode se identificar dizendo
-que ele é aonde ele está medindo e puro
-e qual a sole calibração se essa
-calibração tivesse autorizado também
-isso poderá ser feito e até mesmo ele se
-fazer um autodiagnóstico né
-então surgem agora redes especiais para
-instrumentação que são chamadas por
-muitos como redes de controle
-então fui pra finalizar
-estamos mostrando redes e um veículo é
-um veículo tem várias redes não é apenas
-uma não tem uma rede que é chamada de
-rede de alta velocidade
-essa é a rede que controla todo o
-funcionamento do veículo que o veículo
-pode se movimentar muito em velocidades
-altas então ela tem que ser uma rede
-alto em alta velocidade não perder
-nenhuma informação e tomar as ações
-quando necessárias mas também temos
-redes de média velocidade é que são
-aquelas que envolvem o rádio interface
-com o usuário que não há necessidade uma
-velocidade tão grande temos também redes
-de baixa velocidade por exemplo redes
-que controla o vidro elétrico é uma
-coisa não que não tem necessidade de ser
-muito rápida
-o usuário aperta um botão é é já existe
-a parte mecânica que é lenta por
-natureza enfim isso exemplo mostra que
-nós temos redes de várias
-características de várias complexidades
-de vários cursos estão assim que os
-veículos modernos são implementados e
-nós vamos aprofundar esse entendimento
-nas próximas aulas então nas próximas
-aulas vamos entender um pouco com um
-pouco mais de profundidade o que é tal
-dessa eletrônica automotiva entender um
-pouco mais do que são os sensores e
-atuadores né e como é que isso constrói
-uma nova instrumentação chamada de
-instrumentação inteligente e finalmente
-vamos aprofundar o nosso entendimento um
-pouco mais sobre rio
-veiculares porque essas redes são muito
-importantes nos dias de hoje não apenas
-para os veículos mas ela está presente
-em equipamentos industriais equipamentos
-médicos automação predial tomar são
-residencial enfim em tudo que nós vemos
-nos dias de hoje
-bom pessoal era isso que nós tínhamos
-para aula de hoje e espero que vocês
-tenham se interessado gostado do sistema
-que é muito rico em informações e
-oportunidades e nos vemos nas próximas
-vídeo aulas
+o Olá pessoal
+vamos então hoje falar sobre sistemas
+Cyber físicos e internet das coisas Uai
+eu te e eu trouxe aqui para conversar
+com vocês um amigo professor
+especialista na área faz bastante
+projetos e eu vou apresentar um
+pouquinho dele depois eu passo para que
+ele mesmo se apresente porque certamente
+eu faltaria que com alguma informação
+mas é o nosso professor Humberto Xavier
+da Universidade Federal de Tocantins
+né Tem mestrado na área doutorado
+pós-doutorado então Professor Humberto
+Fique à vontade para poder aí
+primeiramente se apresentar os nossos
+alunos
+o Olá a todos é um prazer estar aqui
+para o seu Marcelo Agradeço pelo convite
+é
+às vezes Tem trabalhado nos últimos anos
+aí na área de as coisas
+inteligência tchau visão computacional
+todo associado aí com um
+desenvolvimento de novas tecnologias né
+gritando aí o gancho do 5g né que a rede
+ovos gente vai chegando aí no país
+Contextualização
+Tá bom então Professor eu gostaria de
+você começar a se explicar nossos alunos
+aí que você poderia falar sobre temas
+tão complexos e atuais que uma
+inteligência artificial
+o5g o que eles estão contribuindo aí
+para o desenvolvimento de alguns setores
+e principalmente aí da pecuária no
+Brasil
+e esse é um ponto muito importante de
+interessante né A gente só para
+contextualizar o aluno
+internet das coisas ela é o tema que não
+é novo né desses primodios lá quando a
+internet começou a ser pensada para ser
+utilizado nas residências e nos anos 80
+meados dos anos 90 já se tinha ideia de
+internet das coisas
+entretanto não se tinha e outra
+estrutura suficiente né é gente não
+tinha
+ferramentas equipamentos e desce
+realmente conectar as coisas e isso foi
+possível no início dos anos2000 né com o
+advento dos microcontroladores então a
+gente começou a ter dispositivos mais
+baratos
+mais versáteis né E hoje a gente
+consegue então
+desenvolver
+conectividade conexão equipamentos
+conectar esse equipamento na internet e
+de fato é que internet nas coisas e
+quando a gente respondendo à sua
+pergunta de forma mais direta né quando
+a gente começa associar Essas
+tecnologias que são tecnologias novas e
+são tecnologias que vem para solucionar
+baixo problemas em várias verticais a
+Lúcia no transporte
+e
+nada pecuária a gente começa desde os
+dados satisfatórios eu já vem nosso país
+país basicamente agrícola então nós
+temos aí como é um dos principais pontos
+deve principais é
+o mecanismo na nossa balança comercial
+do agronegócio né essa
+semente
+agrícolas são só as carnes né e bovinos
+desfilamos de aves então o nosso país
+Brasil ele já é bom Brasil ele já tem
+essa vertente
+agropecuário e quando a gente Traz essa
+tecnologia como internet das coisas para
+coletar as coisas onde nós trazemos
+exigência artificial quando nós temos aí
+a inter
+o quê
+[Música]
+o
+maior nós então podemos é
+E aí
+tu
+conhece o
+[Música]
+Internet das Coisas
+Ah tá ok É até Então pessoal a ideia
+internet das coisas saiba os sistemas
+estão em todos os lugares mas o
+professor Humberto dentre as
+especialidades e trabalha junto com água
+e realmente desenvolve projeto
+desenvolve aí ajuda a desenvolver o
+nosso país então Professor olha Quais os
+principais desafios para poder executar
+um projeto desse se
+Esse é o Google projeto que nós estamos
+correndo né
+a internet das coisas inteligência
+artificial 5g na pecuária objetivo
+principal é a gente realizar um
+monitoramento é dos animais das vacas
+leiteiras né Isso aí é é uma nova forma
+de gerenciamento da dos animais as
+matrizes leiteiros e veja elas Esses
+animais eles eles ficam conf
+e
+sem presença de turnê
+contentor apenas vaca é preciso entender
+que para de leite é preciso de
+reprodução eo ambiente onde só se tem
+férias vagas férias é preciso ter então
+um procedimento de inseminação
+artificial
+bom para a inseminação adicionou Hotel
+Concórdia porque momento ela é preciso
+que alguém né que que observando Esses
+animais e dá para conseguir
+uma pessoa especialíssima veterinário
+zootecnista ele consegue observar que
+entender nada de mal tá comportamento de
+ciúme ele se separa esse animal né E faz
+o protocolo que servirá tanto social o
+que acontece é que normalmente é Essas
+manifestações que
+quando não ter ou ser
+G1
+a
+temperatura você tem aí uma janela de 6
+horas dentro desde a observação do cio
+até você retirar e aplicar o protocolo
+hormonal né de inseminação artificial e
+você perdeu essa janela de 6 horas de
+manifestação você vai ter que esperar aí
+uma nova manifestação 21 dias depois se
+você não observar dentro desses 21 dias
+mais uns dias até que chega num ponto em
+que o veterinário que acompanha Esses
+animais ele tem que fazer um protocolo
+ou Monark Extra é um
+e veja aqui se nós p
+e ela aqui
+o
+aumento deixe aí a
+é só você marcar o dia que você vai
+perceber é
+quanto o animal tá deixando de vender
+para fazenda não é
+em
+24 horas por dia
+você faz todo o sistema de conectividade
+utilizando internet das coisas não é
+conectado câmeras SP deve e
+CPF autorizo estrutura conectar é essas
+margens elas vão a nuvem processo assim
+tão no algoritmo Inteligência Artificial
+nós desenvolvemos E à medida que o
+animal e Nigéria mostram o comportamento
+de cio
+automaticamente é a o o boletim clínico
+e Alex através do aplicativo
+desenvolvido para esse fim então agora
+você não precisa mais ter alguém
+analisando Esses animais 24 horas por
+dia
+o sistema que faz isso e o teu
+veterinário zootecnista ele pode cuidar
+de outras atividades da na fazenda né
+lembrados não de reprodução não tem
+leite né e o criador ele cria os animais
+com i
+Ah sim então agora a própria câmera lá
+ficar monitorando e aqui a inteligência
+artificial já defini né ali Qual é a
+vaca e também você consegue
+fazer depois também saber evolução dessa
+vaca né
+quantas vezes ela entra no cio enfim com
+essa selecionar também senhor
+podemos aqui se poderia citar alguns
+resultados até então obtidos alguns
+impactos algum Impacto financeiro e
+poderia acertar alguma coisa por favor
+e veja é de acordo com a literatura
+cerca de sessenta setenta por cento das
+manifestações do ciúme ele tá
+acontecendo no período do governo né
+Então tinha imediato né
+Oi gente já tem aí mais ou menos um
+aumento de trinta por cento dessa
+visualização a noite né vamos nós
+recebemos aí
+E aí
+eu já recebi já consegue acompanhar
+todos esses animais né que manifestaram
+o cio no Peru
+A Outra vantagem aqui Nossa já
+observamos em relação à quantidade os
+animais é possível você ter aí é minha
+verificação de quantos animais têm né
+determinado picket é uma contagem ela
+pode ser
+o
+objetivo é
+vale a pena ressaltar que esse projeto é
+um projeto que ainda está em
+desenvolvimento está sendo sendo feito
+em parceria com a empresa Huawei do
+Brasil é uma parceria entre a
+Universidade Federal do complexo disse
+ao UOL e à estação piloto ela tá sempre
+ela implementada né desde Maio do ano
+passado ela tá voltando lá para te
+atentar ficar mente quase um ano de
+dados coletados é na fazenda decorre em
+Rio Verde Goiás o que Rio Verde Goiás o
+que lá é uma bacia leiteira no pote país
+né E nós temos o sinal super então por
+exemplo igual mas eu meus dois ovos que
+sou pequeno e só agora essa semana
+comecei a observar É por isso não se
+fugiram meu celular né ao passo aqui na
+fazenda que podem eu vejo nós já temos
+5g experimental ou a G1 e
+não é digamos pedir a sua já temos essa
+observação aí que animais que estão
+entrando no cio no período noturno de
+volta intensa né vocês hein por cento e
+não teria ninguém lá para observar então
+é o sistema de tirar
+[Música]
+o
+Impacto do 5G
+of não falou do do 5g da importância e
+do 5g em seu ponto de vista é de que
+forma o 5g irá impactar na nossa
+agroindústria ou já está impactando né
+e
+já está em
+E aí
+Oi
+e a gente começa a observar 5 5g Essas
+tecnologias que necessitam uma
+15 a gente não teria é essa
+e
+enviar ticket
+em 24 horas de gravação a ser detectada
+em tempo real sem uma conexão com
+e
+gr6 de arte Não tenho 5g
+não tem como avançar que chegou no
+Brasil e a gente sabe começa na prática
+Oportunidades no Agro
+é que legal para os nossos alunos né e
+profissionais da área engenharia Você
+acredita que o Agro é um campo promissor
+é um campo de oportunidades a
+[Música]
+[Aplausos]
+[Música]
+a
+[Música]
+soja milho arroz
+Socorro nós temos é uma das maiores
+rebanhos bovinos do mundo médico Estado
+de
+me ligar
+E
+então
+Sem dúvida nenhuma quando o né é uma
+dica que eu tio do próprio mas se eu
+tivesse oportunidade de começar agora
+ele disse cair mais ainda Deus estudos
+na parte da tecnologia voltada para o
+agronegócio O que é onde é o ato Nelson
+multifuncional esperam oportunidade de
+colocar em prática todo aquele
+conhecimento que ele adquiriu ao longo
+da sua formação
+nenhuma é uma das oportunidades que nos
+seus nosso país
+Projetos
+é legal Professor tão para
+finalizar você gostaria de citar alguns
+exemplos alguns projetos
+multidisciplinares
+desenvolvido aí para o grupo de pesquisa
+seus projetos por favor fique à vontade
+e
+[Música]
+[Aplausos]
+e
+ambiental que aconteceu no estado do
+Tocantins é o bota do ano de 2015
+aqui no Tocantins o Tocantins também é o
+estado Agro
+rebanho de corte muito grande e
+produções diga descidas de soja estão na
+região oeste do Estado de
+e
+a Ilha do Bananal ES a
+personalizar geograficamente a maior
+ilha fluvial e de água doce do mundo né
+Então aí é uma bacia onde nós temos
+bastante e produtores de grãos né então
+em determinada época do ano é produzido
+soja os renuncia não entrar na região
+ela favorece a propagação ao longo de
+todo ano
+eu posso plano de 2015 e nós tivemos uma
+escassez de chuva muito grande pois seca
+e as lavouras elas são irrigadas
+E aí
+se retiram água do rio É nesse caso
+ficou rosto através de grandes roupas
+e para fazer ligações
+que acontece que não viu o Bozo reuniu
+de grande porte do Estado eles secou
+depois da Areia não era possível
+atravessar o que montando E aí que o
+ministério público foi acionado no
+hemisfério ele foi ele solicitou então
+Paulo
+em
+todas as bombas hidráulicas daquela
+região
+Oi e a Imagina se fosse
+destruídas o impacto financeiro é se
+refrigerado no estado e país das fábulas
+de morrer e
+favoreciam ter O que
+é que o
+Tribunal de Justiça decidiu ele ele
+acionou a Universidade Federal nosso
+pesquisa para
+é
+capaz de resolver o problema né não pela
+distribuição das Bombas mas também
+preservando o tipo e assim nós fizemos
+então nós desenvolvemos uma solução
+inédita no país para fazer a telemetria
+em tempo real do do volume de água
+captada do rio do Rio Formoso no caso
+Então esse foi que você tem um projeto
+que no ano passado foi vencedor do
+prêmio Ana Agência Nacional de águas Ana
+e o eixo de inovação tecnológica né E
+esse cocô como nós movemos esse trabalho
+nós temos as bombas hidráulicas nós
+desenvolvemos aí um sistema com o sensor
+ultrassônico então é um sistema
+não-invasivo onde você a data o sensor
+na tubulação da bomba esse sensor ele
+retira né através do ultrassom o volume
+de água captado a gente envia através de
+um sistema é uma remota telemétrica E aí
+nós enviamos um sistema web service que
+nós mesmos desenvolvemos
+através de
+GPRS 2G 3G 4G dependendo da região
+internet é um sistema de transmissão via
+satélite Então hoje o nosso sistema ele
+já consegue fazer transmissão dessas
+três formas e vamos as nós conseguimos
+aí então preservar fazer sugeriu um
+E aí
+[Música]
+o
+volume necessário Tiago é para sua
+lavoura né E se prometerem um sucesso e
+depois expandido saiba que o patins já
+fomos aí hoje nós estamos estavam de
+rios federais tema e o Federal aquilo
+que aparece no verde grande em Minas
+Gerais estamos avançando aí ainda esse
+ano no Rio Grande do Norte e temos aí
+solicitações para de repente implantar
+em outros estados também da Federação
+Foi à Bahia de Federal então um projeto
+realmente que utiliza a tecnologia de
+internet das coisas para fazer tudo essa
+conexão entre os dispositivos e manter
+aí o produtor né e qualquer pessoa por
+dentro aí de Quanto de água está sendo
+capaz de captar
+E aí
+a dica e também é você ele tem
+disponível para essa transmissão
+Finalização
+então agradecemos mais uma vez o
+professor Humberto que é especialista na
+na para internet das coisas tá aí
+levando a solução para o nosso Agro
+Muito obrigado Professor eu agora meus
+alunos então uma próxima aula muito
+obrigado pela presença de vocês e até
+mais tchau tchau tchau
 [Música]
 [Música]
-[Música]
-[Música]
-
-
+E aí
