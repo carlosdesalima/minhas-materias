@@ -1,6 +1,12 @@
 body {
     background-color: #add8e6; /* Azul claro */
     font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: url('img/carro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 h1 {
@@ -28,4 +34,10 @@ iframe {
 /* Adiciona cor clara aos links */
 a {
     color: #FFFFFF; /* Cor branca */
+}
+
+/* Redimensiona as imagens para ficarem proporcionais ao texto */
+img {
+    max-width: 100%;
+    height: auto;
 }
