@@ -6,8 +6,8 @@
     <title>Minha Página Inicial</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <script>
-        function abrirPDF(pdf) {
-            document.getElementById('pdfViewer').src = pdf;
+        function abrirPagina(url) {
+            document.getElementById('pageViewer').src = url;
         }
     </script>
 </head>
@@ -15,17 +15,12 @@
     <h1>Bem-vindo ao Meu Site</h1>
     <p>Este é um exemplo de parágrafo.</p>
     <ul>
-        <li><a href="#" onclick="abrirPDF('pdf/documento1.pdf')">Documento 1</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento2.pdf')">Documento 2</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento3.pdf')">Documento 3</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento4.pdf')">Documento 4</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento5.pdf')">Documento 5</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento6.pdf')">Documento 6</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento7.pdf')">Documento 7</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento8.pdf')">Documento 8</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento9.pdf')">Documento 9</a></li>
-        <li><a href="#" onclick="abrirPDF('pdf/documento10.pdf')">Documento 10</a></li>
+        <li><a href="#" onclick="abrirPagina('https://www.exemplo.com/pagina1')">Página 1</a></li>
+        <li><a href="#" onclick="abrirPagina('https://www.exemplo.com/pagina2')">Página 2</a></li>
+        <li><a href="#" onclick="abrirPagina('https://www.exemplo.com/pagina3')">Página 3</a></li>
+        <li><a href="#" onclick="abrirPagina('https://www.exemplo.com/pagina4')">Página 4</a></li>
+        <li><a href="#" onclick="abrirPagina('https://www.exemplo.com/pagina5')">Página 5</a></li>
     </ul>
-    <iframe id="pdfViewer" src="pdf/documento1.pdf" type="application/pdf" width="100%" height="600px"></iframe>
+    <iframe id="pageViewer" src="https://www.exemplo.com/pagina1" width="100%" height="600px"></iframe>
 </body>
 </html>
