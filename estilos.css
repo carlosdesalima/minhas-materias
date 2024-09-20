@@ -10,6 +10,7 @@ h1 {
 
 p {
     color: #FFFFFF;
+    text-align: center; /* Centraliza o texto */
 }
 
 ul {
