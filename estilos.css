@@ -17,7 +17,7 @@ h1 {
 p {
     color: #FFFFFF;
     text-align: center; /* Centraliza o texto */
-    font-size: 1em; /* Aumenta a fonte em 1x */
+    font-size: 1.5em; /* Aumenta a fonte em 1.5x */
 }
 
 ul {
@@ -39,13 +39,13 @@ a {
 
 /* Redimensiona as imagens para ficarem proporcionais ao texto */
 img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
 /* Define um tamanho máximo específico para a imagem do microcontrolador */
 .microcontrolador {
-    max-width: 80%; /* Ajustado para 80% */
+    max-width: 60%; /* Ajustado para 60% */
     height: auto;
     display: block;
     margin-left: auto;
