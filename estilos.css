@@ -23,3 +23,8 @@ li {
 iframe {
     border: none;
 }
+
+/* Adiciona cor clara aos links */
+a {
+    color: #FFFFFF; /* Cor branca */
+}
