@@ -6,8 +6,10 @@
     <title>Vídeo do YouTube</title>
     <script>
         function abrirVideo() {
-            var url = "https://www.youtube.com/embed/tcLLTsP3wlo?autoplay=1";
-            var novaJanela = window.open(url, "_blank", "noopener,noreferrer");
+            var url = "https://www.youtube.com/embed/tcLLTsP3wlo?autoplay=1&fs=1";
+            var largura = screen.width;
+            var altura = screen.height;
+            var novaJanela = window.open(url, "_blank", `width=${largura},height=${altura},noopener,noreferrer`);
             novaJanela.focus();
         }
     </script>
