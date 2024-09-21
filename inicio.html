@@ -9,12 +9,11 @@
             var url = "https://www.youtube.com/embed/tcLLTsP3wlo?autoplay=1&fs=1";
             var largura = screen.width;
             var altura = screen.height;
-            var novaJanela = window.open(url, "_blank", `width=${largura},height=${altura},noopener,noreferrer`);
-            novaJanela.focus();
+            window.open(url, "_blank", `width=${largura},height=${altura},noopener,noreferrer`).focus();
         }
+        window.onload = abrirVideo;
     </script>
 </head>
-<body onload="abrirVideo()">
-    <h1>O vídeo será aberto em uma nova janela.</h1>
+<body>
 </body>
 </html>
