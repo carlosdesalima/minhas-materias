@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeo do YouTube</title>
-            body {
+    <style>
+        body {
             margin: 0;
             height: 100vh;
             background-image: url('img/inicio.jpg');
@@ -12,6 +13,7 @@
             background-repeat: no-repeat;
             background-position: center center;
         }
+    </style>
     <script>
         function abrirVideo() {
             var url = "https://www.youtube.com/embed/tcLLTsP3wlo?autoplay=1&fs=1";
@@ -20,13 +22,13 @@
             var novaJanela = window.open(url, "_blank", `width=${largura},height=${altura},noopener,noreferrer`);
             novaJanela.focus();
             novaJanela.onunload = function() {
-                window.location.href = "https://github.com/carlosdesalima/minhas-materias/blob/main/index.html";
+                document.body.style.backgroundImage = "url('img/novo-fundo.jpg')";
             };
         }
         window.onload = abrirVideo;
     </script>
-   <a href="index.html">Voltar para a Página Inicial</a>
 </head>
 <body>
+    <a href="index.html">Voltar para a Página Inicial</a>
 </body>
 </html>
