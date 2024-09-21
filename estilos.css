@@ -35,6 +35,7 @@ iframe {
 /* Adiciona cor clara aos links */
 a {
     color: #FFFFFF; /* Cor branca */
+    transform: scale(2); /* Aumenta o tamanho dos links em 1x */
 }
 
 /* Redimensiona as imagens para ficarem proporcionais ao texto */
